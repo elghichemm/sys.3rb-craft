@@ -34,7 +34,7 @@ var ti={}
 ,attentions={};
 
 client.on('ready', function(){
-    var ms = 60000 ;
+    var ms = 6000 ;
     var setGame = ['3!help','Type 3invite'];
     var i = -1;
     var j = 0;
@@ -123,6 +123,7 @@ ${prefix}temp / لانشاء روم مؤقت
 ${prefix}delet <name> / مسح الشات او الرووم فويس
 ${prefix}make <number> / ينشا لك الوان مع كم الوان تبي
 ${prefix}color <number> / لختيار لون
+${prefix}giveaway/ لكي تسوي كيفاواي اكتب الروم اول بعدين الوقت بعدين وش تبي الكيفاواي
 ${prefix}deletecolors <number> / لحذف الالوان
 **
    `,`
